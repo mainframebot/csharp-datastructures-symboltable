@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lessons", "Lessons", "{C4BD32A6-70FB-45B4-8C97-F9E62BB1ABBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5BEE5A57-CB82-4559-8E25-A64D3DECA31D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderedSymbolTableLesson", "OrderedSymbolTableLesson\OrderedSymbolTableLesson.csproj", "{BD5EB0BB-FB4A-470E-A9E7-67B600496BB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnorderedSymbolTableLesson", "UnorderedSymbolTableLesson\UnorderedSymbolTableLesson.csproj", "{2560CC43-2B49-4F51-8F12-9AEB00A94133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderedSymbolTableTests", "OrderedSymbolTableTests\OrderedSymbolTableTests.csproj", "{C98C8024-05B3-4E65-9A82-03D87AEFEBC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnorderedSymbolTableTests", "UnorderedSymbolTableTests\UnorderedSymbolTableTests.csproj", "{0F8166BE-C3EE-4D2A-95A4-7D4E39B27B76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD5EB0BB-FB4A-470E-A9E7-67B600496BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5EB0BB-FB4A-470E-A9E7-67B600496BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5EB0BB-FB4A-470E-A9E7-67B600496BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5EB0BB-FB4A-470E-A9E7-67B600496BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2560CC43-2B49-4F51-8F12-9AEB00A94133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2560CC43-2B49-4F51-8F12-9AEB00A94133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2560CC43-2B49-4F51-8F12-9AEB00A94133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2560CC43-2B49-4F51-8F12-9AEB00A94133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C98C8024-05B3-4E65-9A82-03D87AEFEBC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98C8024-05B3-4E65-9A82-03D87AEFEBC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98C8024-05B3-4E65-9A82-03D87AEFEBC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98C8024-05B3-4E65-9A82-03D87AEFEBC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F8166BE-C3EE-4D2A-95A4-7D4E39B27B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8166BE-C3EE-4D2A-95A4-7D4E39B27B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8166BE-C3EE-4D2A-95A4-7D4E39B27B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8166BE-C3EE-4D2A-95A4-7D4E39B27B76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD5EB0BB-FB4A-470E-A9E7-67B600496BB8} = {C4BD32A6-70FB-45B4-8C97-F9E62BB1ABBF}
+		{2560CC43-2B49-4F51-8F12-9AEB00A94133} = {C4BD32A6-70FB-45B4-8C97-F9E62BB1ABBF}
+		{C98C8024-05B3-4E65-9A82-03D87AEFEBC1} = {5BEE5A57-CB82-4559-8E25-A64D3DECA31D}
+		{0F8166BE-C3EE-4D2A-95A4-7D4E39B27B76} = {5BEE5A57-CB82-4559-8E25-A64D3DECA31D}
+	EndGlobalSection
+EndGlobal
